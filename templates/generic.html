@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Generic - Theory by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href={% url 'index' %} class="logo">БаирБудалите</a>
+					<nav id="nav">
+						<a href={% url 'index' %}>Home</a>
+						<a href={% url 'pohodi' %}>Походи</a>
+						<a href="elements.html">Снимки</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Нашите походи</h2>
+						<p>2017-</p>
+					</header>
+					<p>  Така от лятото на 2017 година се сформира една нова група, група на младежи на по 15 години, която от 7 човека на първия ни поход, се превърна в семейство от близо 60 човека. В началото започнахме с еднодневни походи, а впоследствие с двудневни и тридневни. Само за първите 30 похода, успяхме да създадем множество моменти и спомени, имахме трагични, но и комедийни ситуации. Въпреки всички трудности, ние се справяхме и преодолявахме заедно тежките мигове и препятствия. Тези моменти сплотиха нашия колектив и наистина изградихме сериозна химия помежду ни. В крайна сметка,  ние успяхме да направим първите 30 похода за по-малко от 2 години и така натрупахме опит и създадохме свеж ритъм, за да влезем бързо в кондиция. Имаме походи с висока трудност, където изискването на издръжливост е необходимо, а също така и леки, наречени „кръчмарски“. Но където и да е, когато и да е, то ние ще сме там, там накъдето ни води инстинктът, чувствата, емоцията… Защото това кипи в кръвта ни – волята за успех, търсенето на новото и покоряването на мечтите ни.
+Да, катеренето по чукарите си е чист мазохизъм, но всичко бихме дали да сме пак горе, седейки и гледайки магията на българските земи от високо – най-приятният мазохизъм!
+Точно такива сме и ние – Баир будали!
+</p>
+					<div class="flex flex-2">
+                        <div class="box alt">
+                            <div class="row 50% uniform">
+                                <div class="4u"><span class="image fit"><img src="/static/images/skali/ezero.jpg" alt="" /></span></div>
+                                <div class="4u"><span class="image fit"><img src="/static/images/skali/oblak.jpg" alt="" /></span></div>
+                                <div class="4u$"><span class="image fit"><img src="/static/images/skali/ezero2.jpg" alt="" /></span></div>
+                            </div>
+                        </div>
+                        {% for pohod in pohodi %}
+						<article>
+							<header>
+								<h3>{{ pohod.title }}</h3>
+							</header>
+							<p>{{ pohod.description_small }}</p>
+							<footer>
+								<a href="{% url 'pohod' pohod.id %}" class="button special">Прочети още</a>
+							</footer>
+						</article>
+                        {% endfor %}
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

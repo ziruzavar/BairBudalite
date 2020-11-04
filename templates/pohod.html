@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elements - Theory by TEMPLATED</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/assets/css/main.css" />
+</head>
+<body class="subpage">
+			<header id="header">
+				<div class="inner">
+					<a href={% url 'index' %} class="logo">БаирБудалите</a>
+					<nav id="nav">
+						<a href={% url 'index' %}>Home</a>
+						<a href={% url 'pohodi' %}>Походи</a>
+						<a href="elements.html">Снимки</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+    <div class="inner">
+        <header class="align-center">
+            <h2>{{pohod.title}}</h2>
+            <p>{{ pohod.description_small }}</p>
+        </header>
+        <div class="box alt">
+            <div class="row 50% uniform">
+                {% for image in images %}
+                <div class="4u"><span class="image fit"><img src="{{ image.image }}" alt="" /></span></div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
