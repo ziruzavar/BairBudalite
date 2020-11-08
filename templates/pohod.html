@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Elements - Theory by TEMPLATED</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/static/assets/css/main.css" />
-</head>
-<body class="subpage">
+{% extends 'base.html' %}
+{% block content %}
 			<header id="header">
 				<div class="inner">
 					<a href={% url 'index' %} class="logo">БаирБудалите</a>
@@ -30,6 +23,21 @@
                 {% endfor %}
             </div>
         </div>
+        <form method="POST">
+            <div class="12u$">
+                {% csrf_token %}
+                {{ form.comment }}
+            </div>
+            <div class="12u$">
+                <ul class="actions">
+                    <li><input type="submit" value="Изпрати" /></li>
+                </ul>
+            </div>
+        </form>
+        {% for com in comment %}
+        <div class="box">
+            <p>{{ com.comment }}</p>
+        </div>
+        {% endfor %}
     </div>
-</body>
-</html>
+{% endblock %}

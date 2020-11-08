@@ -1,12 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
-from BairBudalite.models import Pohodi, Budali, Images
+from BairBudalite.forms import CommentForm
+from BairBudalite.models import Pohodi, Budali, Images, Comment
 
 
 def index(request):
     context = {
         'pohodi': Pohodi.objects.all().order_by('-id')[:3],
-        'budali': Budali.objects.all().order_by('-id')[:4:-1],
+        'budali': Budali.objects.all().order_by('pohodi')[:4:-1],
     }
     return render(request, 'index.html', context)
 
@@ -24,8 +25,26 @@ def elements(request):
 
 def pohod(request, pk):
     pohod = Pohodi.objects.get(pk=pk)
-    context = {
-        'pohod': pohod,
-        'images': Images.objects.filter(pohod=pk).all()
-    }
-    return render(request, 'pohod.html', context)
+    if request.method == "GET":
+        context = {
+            'pohod': pohod,
+            'images': Images.objects.filter(pohod=pk).all(),
+            'comment': Comment.objects.filter(pohod=pk).all(),
+            'form': CommentForm()
+        }
+        return render(request, 'pohod.html', context)
+    else:
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            all = form.cleaned_data
+            comment = Comment(comment=all['comment'], pohod_id=pk)
+            comment.save()
+            return redirect('pohod', pk)
+        else:
+            context = {
+                'pohod': pohod,
+                'images': Images.objects.filter(pohod=pk).all(),
+                'comment': Comment.objects.filter(pohod=pk).all(),
+                'form': CommentForm()
+            }
+            return render(request, 'pohod.html', context)

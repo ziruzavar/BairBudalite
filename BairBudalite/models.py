@@ -27,3 +27,9 @@ class Klipove(models.Model):
     pass
 
 
+class Comment(models.Model):
+    comment = models.TextField()
+    pohod = models.ForeignKey(Pohodi, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.pohod}"
