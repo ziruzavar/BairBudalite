@@ -1,0 +1,13 @@
+	<header id="header">
+				<div class="inner">
+					<a href={% url 'index' %} class="logo">БаирБудалите</a>
+					<nav id="nav">
+						<a href={% url 'index' %}>Начало</a>
+						<a href={% url 'pohodi' %}>Походи</a>
+						<a href="elements.html">Снимки</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+    {% block content %}
+    {% endblock %}

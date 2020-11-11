@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="1.Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to the our Instagram.&#10;3. Added comment form under our Hikes page.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BairBudalite/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0006_comment.py" afterDir="false" />
+    <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c/storage_v2/_src_/database/bairbudalite.ZlbcNg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c/storage_v2/_src_/database/bairbudalite.ZlbcNg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pohod.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pohod.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +167,71 @@
       <workItem from="1604574673318" duration="1937000" />
       <workItem from="1604834376524" duration="1348000" />
       <workItem from="1604840310063" duration="64000" />
-      <workItem from="1604860276239" duration="2299000" />
+      <workItem from="1604860276239" duration="3425000" />
+      <workItem from="1605014876484" duration="792000" />
+      <workItem from="1605104562590" duration="839000" />
     </task>
+    <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
+      <created>1604862751847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604862751847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="800" y="43" key="#base.html" timestamp="1605105452847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="800" y="43" key="#base.html/0.0.1366.728@0.0.1366.728" timestamp="1605105452847" />
     <state x="550" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604080527720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,30 +240,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1604862728194">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1604863084190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604862728194" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604863084190" />
+    <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1604863518541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="766" y="103" width="504" height="521" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1604863518541" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604840372675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604840372675" />
-    <state width="644" height="105" key="GridCell.Tab.0.bottom" timestamp="1604860653430">
+    <state width="644" height="146" key="GridCell.Tab.0.bottom" timestamp="1605036541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="644" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604860653430" />
-    <state width="644" height="105" key="GridCell.Tab.0.center" timestamp="1604860653430">
+    <state width="644" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605036541649" />
+    <state width="644" height="146" key="GridCell.Tab.0.center" timestamp="1605036541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="644" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604860653430" />
-    <state width="644" height="105" key="GridCell.Tab.0.left" timestamp="1604860653429">
+    <state width="644" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605036541649" />
+    <state width="644" height="146" key="GridCell.Tab.0.left" timestamp="1605036541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="644" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604860653429" />
-    <state width="644" height="105" key="GridCell.Tab.0.right" timestamp="1604860653430">
+    <state width="644" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605036541649" />
+    <state width="644" height="146" key="GridCell.Tab.0.right" timestamp="1605036541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="644" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604860653430" />
+    <state width="644" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605036541649" />
     <state width="644" height="217" key="GridCell.Tab.1.bottom" timestamp="1604519088748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,13 +292,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="831" y="141" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080596693" />
-    <state x="648" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1604840308937">
+    <state x="648" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1605104723749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604840308937" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604862424237">
+    <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605104723749" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605105476362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1604862424237" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605105476362" />
   </component>
 </project>
