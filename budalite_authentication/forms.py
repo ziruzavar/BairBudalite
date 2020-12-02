@@ -23,6 +23,12 @@ class UserProfileForm(forms.ModelForm):
         fields = ('profile_picture',)
 
 
+class EditUserProfileForm(forms.ModelForm):
+    class Meta:
+        model = UserProfile
+        fields = ('description', 'instagram', )
+
+
 class LoginForm(forms.Form):
     username = forms.CharField()
     password = forms.CharField(

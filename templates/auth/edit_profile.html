@@ -13,10 +13,8 @@
                     <div class="row m-l-0 m-r-0">
                         <div class="col-sm-4 bg-c-lite-green user-profile">
                             <div class="card-block text-center text-white">
-                                <div class="m-b-25"> <img src="/media/{{ user_profile.profile_picture }}" class="img-radius" alt="User-Profile-Image"> </div>
-                                <h6 class="f-w-600">{{ user_profile.user.username }}</h6>
-                                <a href="{% url 'edit profile' user.id %}" class="btn-success">Редактирай</a>
-                                <button class="btn-danger">Изтрий профила</button>
+                                <div class="m-b-25"> <img src="/media/{{ profile.profile_picture }}" class="img-radius" alt="User-Profile-Image"> </div>
+                                <h6 class="f-w-600">{{ profile.user.username }}</h6>
                             </div>
                         </div>
                         <div class="col-sm-8">
@@ -25,12 +23,18 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">Email</p>
-                                        <h6 class="text-muted f-w-400">{{ user_profile.user.email }}</h6>
+                                        <h6 class="text-muted f-w-400">{{ profile.user.email }}</h6>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="m-b-10 f-w-600">За мен:</p>
-                                    <h6 class="text-muted f-w-400">{{ user_profile.description }}</h6>
+                                    <form method="POST">
+                                    <div class="12u$">
+                                            {% csrf_token %}
+                                            {{ form.description }}
+                                    </div>
+                                    <input type="submit" value="Запази"/>
+                                    </form>
                                 </div>
                             </div>
                         </div>

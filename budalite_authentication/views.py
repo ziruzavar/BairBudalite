@@ -4,7 +4,7 @@ from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import FormView, DetailView
 
-from budalite_authentication.forms import UserForm, UserProfileForm, LoginForm
+from budalite_authentication.forms import UserForm, UserProfileForm, LoginForm, EditUserProfileForm
 from budalite_authentication.models import UserProfile
 
 
@@ -56,3 +56,19 @@ class ProfileView(View):
             'user_profile': user_profile,
         }
         return render(request, 'auth/profile.html', context)
+
+
+class EditProfileView(FormView):
+    template_name = 'auth/edit_profile.html'
+    form_class = EditUserProfileForm
+
+    def form_valid(self, form):
+        form = EditUserProfileForm(self.request.POST, instance=UserProfile.objects.get(user_id=self.kwargs['pk']))
+        form.save()
+        return redirect('profile', self.kwargs['pk'])
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['profile'] = UserProfile.objects.get(user_id=self.kwargs['pk'])
+        context['form'] = EditUserProfileForm
+        return context
