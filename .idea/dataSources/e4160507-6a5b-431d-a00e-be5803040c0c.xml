@@ -9,19 +9,19 @@
       <ObjectId>25199</ObjectId>
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>998</IntrospectionStateNumber>
-      <Relations>sequence|table|25344|25346|1
-sequence|table|25240|25242|1
-sequence|table|25219|25221|1
-sequence|table|25230|25232|1
+      <Relations>sequence|table|25276|25278|1
+sequence|table|25284|25286|1
+sequence|table|25344|25346|1
 sequence|table|25200|25202|1
 sequence|table|25211|25213|1
-sequence|table|25276|25278|1
-sequence|table|25284|25286|1
+sequence|table|25219|25221|1
+sequence|table|25230|25232|1
+sequence|table|25240|25242|1
 sequence|table|25248|25250|1
 sequence|table|25258|25260|1
 sequence|table|25266|25268|1
-sequence|table|41539|41541|1
 sequence|table|41553|41555|1
+sequence|table|41539|41541|1
 sequence|table|41531|41533|1
 </Relations>
     </database>

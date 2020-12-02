@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block extra %}
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/auth/roboto-font.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/auth/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/auth/style.css' %}"/>
+    {% endblock extra %}
+</head>
+{% block content %}
+	<div class="page-content">
+		<div class="form-v5-content">
+			<form class="form-detail" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+				<h2>Регистрация</h2>
+				<div class="form-row">
+                    <label for="name">Username</label>
+					{{ form.username }}
+				</div>
+				<div class="form-row">
+                    <label for="email">Your Email</label>
+					{{ form.email }}
+				</div>
+				<div class="form-row">
+                    <label for="password">Password</label>
+					{{ form.password1 }}
+				</div>
+                <div class="form-row">
+                    <label for="password">Rewrite password</label>
+					{{ form.password2 }}
+				</div>
+                <div class="form-row">
+                    <label for="picture">Profile picture</label>
+					{{ form_profile.profile_picture }}
+				</div>
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Register">
+				</div>
+			</form>
+		</div>
+	</div>
+{% endblock content %}

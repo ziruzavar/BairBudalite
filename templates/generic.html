@@ -23,7 +23,7 @@
 							<header>
 								<h3>{{ pohod.title }}</h3>
 							</header>
-							<p>{{ pohod.description_small }}</p>
+							<p>{{ pohod.description|truncatechars_html:200 }}</p>
 							<footer>
 								<a href="{% url 'pohod' pohod.id %}" class="button special">Прочети още</a>
 							</footer>

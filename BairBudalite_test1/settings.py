@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+from os.path import join
 from pathlib import Path
 import os
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'BairBudalite',
+    'budalite_authentication',
 ]
 
 MIDDLEWARE = [
@@ -126,5 +127,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    'C:/Users/ivan/PycharmProjects/BairBudalite_test1/static',
+    join(BASE_DIR, 'static'),
 )
+MEDIA_ROOT = join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'

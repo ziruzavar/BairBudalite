@@ -5,6 +5,12 @@
 						<a href={% url 'index' %}>Начало</a>
 						<a href={% url 'pohodi' %}>Походи</a>
 						<a href="elements.html">Снимки</a>
+                        {% if not user.is_authenticated %}
+                        <a href="{% url 'login' %}">Вход</a>
+                        <a href="{% url 'register' %}">Регистрация</a>
+                        {% else %}
+                        <a href="{% url 'profile' user.id %}">Профил</a>
+                        {% endif %}
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
