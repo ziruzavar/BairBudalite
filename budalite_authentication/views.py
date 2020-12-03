@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.views import View
@@ -69,6 +69,24 @@ class EditProfileView(FormView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['profile'] = UserProfile.objects.get(user_id=self.kwargs['pk'])
-        context['form'] = EditUserProfileForm
+        user_profile = UserProfile.objects.get(user_id=self.kwargs['pk'])
+        context['profile'] = user_profile
+        context['form'] = EditUserProfileForm(instance=user_profile)
         return context
+
+
+class DeleteUserView(View):
+    def get(self, request, **kwargs):
+        return render(request, 'auth/delete_profile.html')
+
+    def post(self, request, **kwargs):
+        user_profile = UserProfile.objects.get(user_id=self.kwargs['pk'])
+        user = user_profile.user
+        user.delete()
+        return redirect('index')
+
+
+class LogoutView(View):
+    def get(self, request):
+        logout(request)
+        return redirect('index')

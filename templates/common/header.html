@@ -10,6 +10,7 @@
                         <a href="{% url 'register' %}">Регистрация</a>
                         {% else %}
                         <a href="{% url 'profile' user.id %}">Профил</a>
+                        <a href="{% url 'logout view' %}">Излез</a>
                         {% endif %}
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>

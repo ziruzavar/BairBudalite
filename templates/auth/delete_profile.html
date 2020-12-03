@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra %}
+  <link rel="stylesheet" href="{% static '/assets/css/auth/profile.css'%}" />
+{% endblock extra %}
+{% block content %}
+    <div class="center-block">
+    <h1 style="text-align:center;">Сигурен ли си, че искаш да изтриеш профила</h1>
+    </div>
+    <form method="post">
+    {% csrf_token %}
+    <div class="text-center">
+        <button class="btn-danger">Да</button>
+    </div>
+    </form>
+{% endblock content %}

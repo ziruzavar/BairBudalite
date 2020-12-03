@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budalite_authentication/migrations/0002_auto_20201202_2028.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budalite_authentication/migrations/0003_auto_20201202_2030.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/auth/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/edit_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BairBudalite_test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BairBudalite_test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_images/93109509_680546829365617_8034300088870240256_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/auth/delete_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4160507-6a5b-431d-a00e-be5803040c0c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budalite_authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budalite_authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/budalite_authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/budalite_authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/auth/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/auth/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/auth/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/header.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +114,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../templates_advanced" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -216,7 +212,8 @@
       <workItem from="1605610284855" duration="4934000" />
       <workItem from="1605793356876" duration="1174000" />
       <workItem from="1606155243109" duration="32000" />
-      <workItem from="1606901415456" duration="18865000" />
+      <workItem from="1606901415456" duration="18973000" />
+      <workItem from="1606988779056" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -247,12 +244,22 @@
       <option name="project" value="LOCAL" />
       <updated>1606912660043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1. Updated the profile template.&#10;2. Added new fields for the Users.&#10;3. Added edit profile view.">
+      <created>1606937092445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606937092445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -297,7 +304,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page." />
     <MESSAGE value="1. Changed the views with class based views&#10;2. Added Registration/Login/Profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Changed the views with class based views&#10;2. Added Registration/Login/Profile" />
+    <MESSAGE value="1. Updated the profile template.&#10;2. Added new fields for the Users.&#10;3. Added edit profile view." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Updated the profile template.&#10;2. Added new fields for the Users.&#10;3. Added edit profile view." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -313,10 +321,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1606912658305">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1606937090886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606912658305" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606937090886" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -325,38 +333,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606903715498" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1606937042761">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606937042761" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1606937042761">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606937042761" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1606937042760">
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606937042760" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1606937042761">
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606937042761" />
-    <state width="1323" height="199" key="GridCell.Tab.1.bottom" timestamp="1606936666890">
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom" timestamp="1607022214120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606936666890" />
-    <state width="1323" height="199" key="GridCell.Tab.1.center" timestamp="1606936666890">
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607022214120" />
+    <state width="1323" height="199" key="GridCell.Tab.1.center" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606936666890" />
-    <state width="1323" height="199" key="GridCell.Tab.1.left" timestamp="1606936666890">
+    <state width="1323" height="199" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.1.left" timestamp="1607022214119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606936666890" />
-    <state width="1323" height="199" key="GridCell.Tab.1.right" timestamp="1606936666890">
+    <state width="1323" height="199" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607022214119" />
+    <state width="1323" height="199" key="GridCell.Tab.1.right" timestamp="1607022214120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606936666890" />
+    <state width="1323" height="199" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607022214120" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604497990230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,10 +385,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606155243148" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606937045146">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607023945334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606937045146" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607023945334" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607022038764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607022038764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,23 +404,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/budalite_authentication/views.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="16" />
+          <line>88</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/budalite_authentication/views.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/budalite_authentication/views.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/budalite_authentication/views.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="19" />
+          <line>89</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/pohod.html</url>

@@ -15,8 +15,12 @@
                             <div class="card-block text-center text-white">
                                 <div class="m-b-25"> <img src="/media/{{ user_profile.profile_picture }}" class="img-radius" alt="User-Profile-Image"> </div>
                                 <h6 class="f-w-600">{{ user_profile.user.username }}</h6>
+                                <h5 class="flex-sm-row">
                                 <a href="{% url 'edit profile' user.id %}" class="btn-success">Редактирай</a>
-                                <button class="btn-danger">Изтрий профила</button>
+                                </h5>
+                                <h6 class="flex-sm-row">
+                                <a href="{% url 'delete user' user.id %}" class="btn-danger">Изтрий профилът</a>
+                                </h6>
                             </div>
                         </div>
                         <div class="col-sm-8">
