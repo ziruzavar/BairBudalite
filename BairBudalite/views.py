@@ -3,6 +3,7 @@ from django.views.generic import ListView
 
 from BairBudalite.forms import CommentForm
 from BairBudalite.models import Pohodi, Budali, Images, Comment
+from budalite_authentication.models import UserProfile
 
 
 class IndexView(ListView):
@@ -42,7 +43,7 @@ def pohod(request, pk):
         form = CommentForm(request.POST)
         if form.is_valid():
             all = form.cleaned_data
-            comment = Comment(comment=all['comment'], pohod_id=pk)
+            comment = Comment(comment=all['comment'], pohod_id=pk, user_profile=UserProfile.objects.get(user_id=request.user.id))
             comment.save()
             return redirect('pohod', pk)
         else:

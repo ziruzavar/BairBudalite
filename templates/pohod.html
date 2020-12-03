@@ -34,6 +34,8 @@
         </form>
         {% for com in comment %}
         <div class="box">
+            <img class="resize" src="/media/{{ com.user_profile.profile_picture }}">
+            <a href="{% url 'profile' com.user_profile.user_id %}" >{{ com.user_profile.user.username }}</a>
             <p>{{ com.comment }}</p>
         </div>
         {% endfor %}

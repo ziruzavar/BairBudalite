@@ -1,6 +1,8 @@
 from django.contrib.auth.models import User
 from django.db import models
 
+from budalite_authentication.models import UserProfile
+
 
 class Pohodi(models.Model):
     title = models.CharField(max_length=30, blank=False)
@@ -45,6 +47,7 @@ the Pohod with ForeignKey
 class Comment(models.Model):
     comment = models.TextField()
     pohod = models.ForeignKey(Pohodi, on_delete=models.CASCADE)
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.pohod}"
+        return f"{self.pohod}-{self.user_profile.user.username}"

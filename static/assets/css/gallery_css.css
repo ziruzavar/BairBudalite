@@ -14,6 +14,10 @@ img {
 
 }
 
+img.resize {
+  width:30px;
+  height:30px;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;

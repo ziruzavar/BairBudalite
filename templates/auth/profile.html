@@ -16,10 +16,12 @@
                                 <div class="m-b-25"> <img src="/media/{{ user_profile.profile_picture }}" class="img-radius" alt="User-Profile-Image"> </div>
                                 <h6 class="f-w-600">{{ user_profile.user.username }}</h6>
                                 <h5 class="flex-sm-row">
+                                {% if user.id == user_profile.user_id %}
                                 <a href="{% url 'edit profile' user.id %}" class="btn-success">Редактирай</a>
                                 </h5>
                                 <h6 class="flex-sm-row">
                                 <a href="{% url 'delete user' user.id %}" class="btn-danger">Изтрий профилът</a>
+                                {% endif %}
                                 </h6>
                             </div>
                         </div>
