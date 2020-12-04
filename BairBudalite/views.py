@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
-from django.views.generic import ListView
+from django.views import View
+from django.views.generic import ListView, DeleteView
 
 from BairBudalite.forms import CommentForm
 from BairBudalite.models import Pohodi, Budali, Images, Comment
@@ -55,6 +56,14 @@ def pohod(request, pk):
                 'images': {images[num]: num + 1 for num in range(0, len(images))},
             }
             return render(request, 'pohod.html', context)
+
+
+class DeleteCommentView(View):
+    def get(self, request, **kwargs):
+        comment = Comment.objects.get(pk=kwargs['pk'])
+        pohod_id = comment.pohod_id
+        comment.delete()
+        return redirect('pohod', pohod_id)
 
 
 #def gallery(rq):

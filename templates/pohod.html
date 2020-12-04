@@ -2,6 +2,7 @@
 {% load static %}
 {% block extra %}
 <link rel="stylesheet" href="{% static '/assets/css/gallery_css.css'%}" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 {% endblock %}
 {% block content %}
     <div class="inner">
@@ -21,6 +22,7 @@
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
        </div>
     </div>
+        {% if user.is_authenticated %}
         <form method="POST">
             <div class="12u$">
                 {% csrf_token %}
@@ -32,11 +34,15 @@
                 </ul>
             </div>
         </form>
+        {% endif %}
         {% for com in comment %}
         <div class="box">
             <img class="resize" src="/media/{{ com.user_profile.profile_picture }}">
             <a href="{% url 'profile' com.user_profile.user_id %}" >{{ com.user_profile.user.username }}</a>
             <p>{{ com.comment }}</p>
+            {% if user.id == com.user_profile.user_id %}
+            <a  href="{% url 'delete comment' com.id %}" class='btn-danger'>Изтрий коментара</a>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
