@@ -2,88 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url-0.5.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dj_database_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku-0.3.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_heroku/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn-20.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/pasterapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/app/wsgiapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/arbiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/glogging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/unreader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/http/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/instrument/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/instrument/statsd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/pidfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/reloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/sock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/systemd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/base_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/geventlet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/ggevent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/gthread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/gtornado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/gunicorn/workers/workertmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise-5.2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/compress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/django.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/media_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/responders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/runserver_nostatic/management/commands/runserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/whitenoise/string_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/gunicorn.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +207,7 @@
       <workItem from="1606988779056" duration="5420000" />
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
-      <workItem from="1607418553719" duration="3490000" />
+      <workItem from="1607418553719" duration="3762000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -347,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607076012898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1. Made the app ready for deployment">
+      <created>1607423287977</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607423287980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -404,7 +330,8 @@
     <MESSAGE value="1. Added logout view&#10;2. Added delete profile view." />
     <MESSAGE value="1. Modified the comments. Now it displays who made is" />
     <MESSAGE value="1. Only the user who made the comment can delete it." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Only the user who made the comment can delete it." />
+    <MESSAGE value="1. Made the app ready for deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Made the app ready for deployment" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -424,10 +351,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607076011220">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607423286017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607076011220" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607423286017" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -488,10 +415,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607106147021" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607423198243">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607423519731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607423198243" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607423519731" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607022038764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
