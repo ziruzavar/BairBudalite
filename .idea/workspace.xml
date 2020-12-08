@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,8 +151,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="BairBudalite_test1.settings" />
+        <env name="DB_NAME" value="bairbudalite" />
+        <env name="DB_USER" value="postgres" />
+        <env name="DB_PASSWORD" value="chikchik1" />
+        <env name="DB_HOST" value="127.0.0.1" />
+        <env name="DB_PORT" value="5432" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\ivan\PycharmProjects\BairBudalite_test1\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -168,6 +173,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.BairBudalite_test1" />
+      <item itemvalue="Python.settings" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.settings" />
@@ -208,7 +217,7 @@
       <workItem from="1606988779056" duration="5420000" />
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
-      <workItem from="1607418553719" duration="4006000" />
+      <workItem from="1607418553719" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -281,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607423534122</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1.">
+      <created>1607423722052</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607423722052</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -348,10 +364,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="800" y="43" key="#base.html/0.0.1366.728@0.0.1366.728" timestamp="1605105452847" />
-    <state x="550" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604080527720">
+    <state x="-178" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607424736209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080527720" />
+    <state x="-178" y="9" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607424736209" />
     <state x="742" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607421946713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -360,34 +376,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607423532661">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607423720642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607423532661" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607423720642" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605107748095" />
+    <state x="271" y="83" key="EnvironmentVariablesDialog" timestamp="1607424734639">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="271" y="83" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607424734639" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607106653530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="1323" height="153" key="GridCell.Tab.0.bottom" timestamp="1607423665124">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom" timestamp="1607424737839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607423665124" />
-    <state width="1323" height="153" key="GridCell.Tab.0.center" timestamp="1607423665123">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607424737839" />
+    <state width="1323" height="153" key="GridCell.Tab.0.center" timestamp="1607424737838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607423665123" />
-    <state width="1323" height="153" key="GridCell.Tab.0.left" timestamp="1607423665123">
+    <state width="1323" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607424737838" />
+    <state width="1323" height="153" key="GridCell.Tab.0.left" timestamp="1607424737838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607423665123" />
-    <state width="1323" height="153" key="GridCell.Tab.0.right" timestamp="1607423665123">
+    <state width="1323" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607424737838" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right" timestamp="1607424737839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607423665123" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607424737839" />
     <state width="718" height="196" key="GridCell.Tab.1.bottom" timestamp="1607418650072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -424,10 +444,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607106147021" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607423715122">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607425051020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607423715122" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607425051020" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607022038764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
