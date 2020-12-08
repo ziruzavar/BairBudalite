@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +217,7 @@
       <workItem from="1606988779056" duration="5420000" />
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
-      <workItem from="1607418553719" duration="9021000" />
+      <workItem from="1607418553719" duration="9311000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607428414425</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1. Reworked the static files">
+      <created>1607428822270</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607428822270</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -437,22 +443,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="718" height="150" key="GridCell.Tab.0.bottom" timestamp="1607428600021">
+    <state width="718" height="150" key="GridCell.Tab.0.bottom" timestamp="1607429043462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="718" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607428600021" />
-    <state width="718" height="150" key="GridCell.Tab.0.center" timestamp="1607428600021">
+    <state width="718" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607429043462" />
+    <state width="718" height="150" key="GridCell.Tab.0.center" timestamp="1607429043461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="718" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607428600021" />
-    <state width="718" height="150" key="GridCell.Tab.0.left" timestamp="1607428600020">
+    <state width="718" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607429043461" />
+    <state width="718" height="150" key="GridCell.Tab.0.left" timestamp="1607429043461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="718" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607428600020" />
-    <state width="718" height="150" key="GridCell.Tab.0.right" timestamp="1607428600021">
+    <state width="718" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607429043461" />
+    <state width="718" height="150" key="GridCell.Tab.0.right" timestamp="1607429043461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="718" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607428600021" />
+    <state width="718" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607429043461" />
     <state width="718" height="196" key="GridCell.Tab.1.bottom" timestamp="1607418650072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -489,10 +495,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607106147021" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607428813517">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607429053785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607428813517" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607429053785" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607022038764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
