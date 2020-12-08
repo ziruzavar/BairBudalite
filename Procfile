@@ -1,0 +1,1 @@
+web: gunicorn bairbudalite.wsgi --log-file -

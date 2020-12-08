@@ -26,7 +26,11 @@ SECRET_KEY = 'c)2pplksna*o&#k49912awgd-!tadspv6n+mhq6@--)v9nxsp*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'bairbudalite.herokuapp.com',
+]
 
 
 # Application definition
@@ -129,5 +133,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     join(BASE_DIR, 'static'),
 )
+STATIC_ROOT = join(BASE_DIR, 'bairbudalite_static')
+
 MEDIA_ROOT = join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
