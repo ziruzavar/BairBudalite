@@ -4806,12 +4806,8 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/delete_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/delete_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/edit_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/mooving_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/mooving_gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pohod.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pohod.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5031,7 +5027,7 @@
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
-      <workItem from="1607529548515" duration="10144000" />
+      <workItem from="1607529548515" duration="10387000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5251,7 +5247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607539740811</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1. Removed leading slashes">
+      <created>1607540075072</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607540075072</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5317,7 +5320,8 @@
     <MESSAGE value="1. Debug=False" />
     <MESSAGE value="1. debug" />
     <MESSAGE value="1. Reworked the static files" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Reworked the static files" />
+    <MESSAGE value="1. Removed leading slashes" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Removed leading slashes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
