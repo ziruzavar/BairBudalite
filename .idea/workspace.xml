@@ -4806,6 +4806,7 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
@@ -5026,7 +5027,7 @@
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
-      <workItem from="1607529548515" duration="6918000" />
+      <workItem from="1607529548515" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5197,7 +5198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607536446448</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1. Debug=False">
+      <created>1607536880068</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607536880068</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5261,7 +5269,8 @@
     <MESSAGE value="1. Reworked the auth templates" />
     <MESSAGE value="1. Added cloud for the media." />
     <MESSAGE value="1. requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. requirements.txt" />
+    <MESSAGE value="1. Debug=False" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Debug=False" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5301,22 +5310,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607536362954">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607537440811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607536362954" />
-    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607536362953">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607537440811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607536362953" />
-    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607536362953">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607537440811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607536362953" />
-    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607536362953">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607537440811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607536362953" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
     <state width="718" height="196" key="GridCell.Tab.1.bottom" timestamp="1607455034372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
