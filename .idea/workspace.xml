@@ -2,6 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="1. Reworked the static files">
+      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/main.59ccb49faa2a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/assets/css/main.59ccb49faa2a.css.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.31bb92a42818.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.31bb92a42818.html.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/html/cloudinary_cors.html.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.33ecbe6885ad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.33ecbe6885ad.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/canvas-to-blob.min.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.6510379e5fa1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.6510379e5fa1.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.cloudinary.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.7c40367b00f7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.7c40367b00f7.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-image.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.840f65232eaf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.840f65232eaf.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-process.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.a144e6149c89.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.a144e6149c89.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload-validate.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.4bfd85460689.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.4bfd85460689.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.fileupload.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.f371e8d9f573.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.f371e8d9f573.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.iframe-transport.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.3d0f0f5ca5d8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.3d0f0f5ca5d8.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/jquery.ui.widget.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.c4cdadc311ce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.c4cdadc311ce.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/js/load-image.all.min.js.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/AUTHORS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/LICENSE" afterDir="false" />
@@ -4807,7 +4849,9 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/assets/css/main.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/assets/css/main.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5027,7 +5071,7 @@
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
-      <workItem from="1607529548515" duration="7864000" />
+      <workItem from="1607529548515" duration="8393000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5205,7 +5249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607536880068</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1. debug">
+      <created>1607537741252</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607537741253</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5270,7 +5321,8 @@
     <MESSAGE value="1. Added cloud for the media." />
     <MESSAGE value="1. requirements.txt" />
     <MESSAGE value="1. Debug=False" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Debug=False" />
+    <MESSAGE value="1. debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. debug" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5294,10 +5346,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607536858761">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607538344717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607536858761" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607538344717" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5310,22 +5362,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607537440811">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607538067024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
-    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607537440811">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607538067024" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607538067023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
-    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607537440811">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607538067023" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607538067023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
-    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607537440811">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607538067023" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607538067024">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607537440811" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607538067024" />
     <state width="718" height="196" key="GridCell.Tab.1.bottom" timestamp="1607455034372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
