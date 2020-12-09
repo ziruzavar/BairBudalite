@@ -11,6 +11,9 @@
                         <a href="{% url 'profile' user.id %}">Профил</a>
                         <a href="{% url 'logout view' %}">Излез</a>
                         {% endif %}
+                        {% if user.is_staff %}
+                            <a href="/admin" class="button">ADMIN</a>
+                        {% endif %}
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>

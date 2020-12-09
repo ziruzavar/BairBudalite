@@ -2772,9 +2772,6 @@
 				color: #ff0600;
 			}
 
-			#header a:last-child {
-				padding-right: 0;
-			}
 
 			#header a.navPanelToggle {
 				display: none;

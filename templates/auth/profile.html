@@ -13,7 +13,7 @@
                     <div class="row m-l-0 m-r-0">
                         <div class="col-sm-4 bg-c-lite-green user-profile">
                             <div class="card-block text-center text-white">
-                                <div class="m-b-25"> <img src="/media/{{ user_profile.profile_picture }}" class="img-radius" alt="User-Profile-Image"> </div>
+                                <div class="m-b-25"> <img src="{{user_profile.profile_picture.build_url}}" class="img-radius" alt="User-Profile-Image"> </div>
                                 <h6 class="f-w-600">{{ user_profile.user.username }}</h6>
                                 <h5 class="flex-sm-row">
                                 {% if user.id == user_profile.user_id %}

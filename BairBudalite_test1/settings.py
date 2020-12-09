@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import cloudinary
 import django_heroku
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'BairBudalite',
     'budalite_authentication',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -86,11 +88,11 @@ WSGI_APPLICATION = 'BairBudalite_test1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME'),# 'bairbudalite',
-        'USER': os.environ.get('DB_USER'),# 'postgres',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),# 'chikchik1',
-        'HOST': os.environ.get('DB_HOST'),# '127.0.0.1',
-        'PORT': os.environ.get('DB_PORT'),# '5432',
+        'NAME': os.environ.get('DB_NAME', 'bairbudalite'),
+        'USER': os.environ.get('DB_USER', 'postgres'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'chikchik1'),
+        'HOST': os.environ.get('DB_HOST', '127.0.0.1'),
+        'PORT': os.environ.get('DB_PORT', '5432'),
     }
 }
 
@@ -142,3 +144,9 @@ MEDIA_ROOT = join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 django_heroku.settings(locals())
+
+cloudinary.config(
+  cloud_name=os.environ.get('NAME'),
+  api_key=os.environ.get('KEY'),
+  api_secret=os.environ.get('SECRET'),
+)
