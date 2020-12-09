@@ -4806,8 +4806,7 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite_test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite_test1/settings.py" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5027,7 +5026,7 @@
       <workItem from="1607072511042" duration="2775000" />
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
-      <workItem from="1607529548515" duration="6565000" />
+      <workItem from="1607529548515" duration="6918000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5191,7 +5190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607536024895</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1. requirements.txt">
+      <created>1607536446448</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607536446448</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5254,7 +5260,8 @@
     <MESSAGE value="1. Reworked the static files" />
     <MESSAGE value="1. Reworked the auth templates" />
     <MESSAGE value="1. Added cloud for the media." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Added cloud for the media." />
+    <MESSAGE value="1. requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. requirements.txt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5278,10 +5285,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607536425124">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607536858761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607536425124" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607536858761" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
