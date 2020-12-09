@@ -16,7 +16,6 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import cloudinary
 import django_heroku
-from django.conf.global_settings import STATICFILES_STORAGE
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -50,10 +49,12 @@ INSTALLED_APPS = [
     'BairBudalite',
     'budalite_authentication',
     'cloudinary',
+    'whitenoise',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -137,7 +138,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = join(BASE_DIR, 'staticfiles')
-del STATICFILES_STORAGE
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIRS = (
     join(BASE_DIR, 'static'),
 )
