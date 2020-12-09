@@ -16,6 +16,7 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import cloudinary
 import django_heroku
+from django.conf.global_settings import STATICFILES_STORAGE
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -136,7 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+del STATICFILES_STORAGE
 STATICFILES_DIRS = (
     join(BASE_DIR, 'static'),
 )
