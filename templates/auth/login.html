@@ -19,6 +19,11 @@
                     <label for="password">Password</label>
 					{{ form.password }}
 				</div>
+                {% for _, msg in form.errors.items %}
+                    <div class="alert alert-danger">
+                        <strong>{{ msg }}</strong>
+                    </div>
+                {% endfor %}
 				<div class="form-row-last">
 					<input type="submit" name="register" class="register" value="Login">
                     <h6>или се </h6>

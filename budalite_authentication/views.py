@@ -29,8 +29,8 @@ class RegisterView(View):
             return redirect('index')
         else:
             context = {
-                'form': UserForm,
-                'form_profile': UserProfileForm,
+                'form': form,
+                'form_profile': profile_form,
             }
             return render(request, 'auth/register.html', context)
 
@@ -46,7 +46,8 @@ class LoginView(FormView):
         if user:
             login(self.request, user)
             return redirect('index')
-        return super().form_valid(form)
+        form.errors['error'] = 'Incorrect password or username!'
+        return self.form_invalid(form)
 
 
 class ProfileView(View):
