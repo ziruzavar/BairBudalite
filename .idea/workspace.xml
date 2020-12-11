@@ -4807,9 +4807,7 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budalite_authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budalite_authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
@@ -5031,7 +5029,7 @@
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
       <workItem from="1607529548515" duration="10710000" />
-      <workItem from="1607675927064" duration="3493000" />
+      <workItem from="1607675927064" duration="5219000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5272,7 +5270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607540470957</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="1. Reworked the reg/login templates and views in order to show error messages">
+      <created>1607680288281</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607680288281</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5339,7 +5344,8 @@
     <MESSAGE value="1. debug" />
     <MESSAGE value="1. Removed leading slashes" />
     <MESSAGE value="1. Reworked the static files" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Reworked the static files" />
+    <MESSAGE value="1. Reworked the reg/login templates and views in order to show error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Reworked the reg/login templates and views in order to show error messages" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5379,38 +5385,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607680196365">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607680196365" />
-    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607680196365">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607680196365" />
-    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607680196365">
+    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1607683809342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607680196365" />
-    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607680196365">
+    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607683809342" />
+    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607680196365" />
-    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1607678824649">
+    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1607683809344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607678824649" />
-    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1607678824649">
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607683809344" />
+    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607678824649" />
-    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1607678824649">
+    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607678824649" />
-    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1607678824649">
+    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1607683809343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607678824649" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604497990230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5467,6 +5473,16 @@
           <line>47</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/auth/register.html</url>
+          <line>33</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/auth/register.html</url>
+          <line>34</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -5475,6 +5491,9 @@
         <watch expression="DEFAULT_MESSAGE_LEVELS" />
         <watch expression="form" />
         <watch expression="form.errors" language="HTML" />
+        <watch expression="__py_debug_temp_var_133328977.__len__()" />
+        <watch expression="__py_debug_temp_var_304217190" />
+        <watch expression="error" language="HTML" />
       </configuration>
     </watches-manager>
   </component>

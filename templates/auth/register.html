@@ -31,10 +31,8 @@
                     <label for="picture">Profile picture</label>
 					{{ form_profile.profile_picture }}
 				</div>
-                    {% for _, error in form.error_messages.items %}
-                        <div class="alert alert-danger">
+                    {% for _, error in form.errors.items %}
                             <strong>{{ error }}</strong>
-                        </div>
                     {% endfor %}
 				<div class="form-row-last">
 					<input type="submit" name="register" class="register" value="Register">

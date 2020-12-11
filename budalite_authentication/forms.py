@@ -6,6 +6,7 @@ from budalite_authentication.models import UserProfile
 
 
 class UserForm(UserCreationForm):
+
     class Meta:
         model = User
         fields = ('username', 'email', )
@@ -18,6 +19,7 @@ class UserForm(UserCreationForm):
 
 
 class UserProfileForm(forms.ModelForm):
+
     class Meta:
         model = UserProfile
         fields = ('profile_picture',)
