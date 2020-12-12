@@ -2021,6 +2021,7 @@
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
+			margin-top: 1em;
 		}
 
 		input[type="text"]:focus,

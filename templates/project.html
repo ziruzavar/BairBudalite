@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra %}
+<link rel="stylesheet" href="{% static 'assets/css/gallery_css.css'%}" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+{% endblock %}
+{% block content %}
+    <div class="inner">
+        <header class="align-center">
+            <h2>{{ project.name }}</h2>
+            <p>{{ project.description }}</p>
+        </header>
+    <div class="container">
+          {% for img, num in images.items %}
+          <div class="mySlides">
+            <div class="numbertext">{{num}} / {{ all }}</div>
+              <img src="{{ img.image }}" style="width:100%">
+          </div>
+          {% endfor %}
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+    </div>
+<script src="/static/assets/js/gallery.js"></script>
+{% endblock %}

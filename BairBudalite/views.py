@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views import View
-from django.views.generic import ListView, DeleteView
+from django.views.generic import ListView, DeleteView, DetailView
 
 from BairBudalite.forms import CommentForm
 from BairBudalite.models import Pohodi, Budali, Images, Comment, Project
@@ -62,6 +62,19 @@ class ProjectsView(ListView):
     template_name = 'projects.html'
     model = Project
     context_object_name = 'projects'
+
+
+class ProjectView(DetailView):
+    template_name = 'project.html'
+    model = Project
+    context_object_name = 'project'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        images = Images.objects.filter(project=self.kwargs['pk']).all()
+        context['images'] = {images[num]: num + 1 for num in range(0, len(images))}
+        context['all'] = len(images)
+        return context
 
 
 class DeleteCommentView(View):
