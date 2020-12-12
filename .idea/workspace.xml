@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c16e9b2-a5cd-4713-bc38-421fbd2911b2" name="Default Changelist" comment="1. Reworked the static files">
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0012_auto_20201211_2233.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0013_auto_20201211_2322.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0014_auto_20201211_2328.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0015_project_first_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0016_auto_20201211_2344.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BairBudalite/migrations/0017_auto_20201211_2344.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/AUTHORS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.2.dist-info/LICENSE" afterDir="false" />
@@ -4807,8 +4814,13 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budalite_authentication/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BairBudalite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budalite_authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/budalite_authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/header.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -4878,8 +4890,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -5029,7 +5041,9 @@
       <workItem from="1607106061402" duration="605000" />
       <workItem from="1607418553719" duration="13864000" />
       <workItem from="1607529548515" duration="10710000" />
-      <workItem from="1607675927064" duration="5219000" />
+      <workItem from="1607675927064" duration="6150000" />
+      <workItem from="1607718305184" duration="4894000" />
+      <workItem from="1607773103122" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5277,7 +5291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607680288281</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1. Reworked the log/reg templates">
+      <created>1607683925214</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607683925214</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5345,7 +5366,8 @@
     <MESSAGE value="1. Removed leading slashes" />
     <MESSAGE value="1. Reworked the static files" />
     <MESSAGE value="1. Reworked the reg/login templates and views in order to show error messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Reworked the reg/login templates and views in order to show error messages" />
+    <MESSAGE value="1. Reworked the log/reg templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Reworked the log/reg templates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5369,10 +5391,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607680261707">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607683908565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607680261707" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607683908565" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5381,42 +5403,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="271" y="83" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607534345543" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607106653530">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607691601506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607106653530" />
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1607683809343">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607691601506" />
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
-    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1607683809343">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
-    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1607683809342">
+    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607683809342" />
-    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1607683809343">
+    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
-    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1607683809344">
+    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607683809344" />
-    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1607683809343">
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
-    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1607683809343">
+    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
-    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1607683809343">
+    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1607723204632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607683809343" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607723204632" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604497990230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5437,14 +5459,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="831" y="141" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1604080596693" />
-    <state x="648" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1607675926950">
+    <state x="648" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1607774342095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607675926950" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607680188316">
+    <state x="648" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607774342095" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607774474978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607680188316" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607774474978" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607022038764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5455,7 +5477,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BairBudalite/views.py</url>
-          <line>74</line>
+          <line>80</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -5483,17 +5505,22 @@
           <line>34</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/project.html</url>
+          <line>14</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/project.html</url>
+          <line>18</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
-        <watch expression="form.cleaned_data" />
         <watch expression="DEFAULT_MESSAGE_LEVELS" />
-        <watch expression="form" />
-        <watch expression="form.errors" language="HTML" />
-        <watch expression="__py_debug_temp_var_133328977.__len__()" />
         <watch expression="__py_debug_temp_var_304217190" />
-        <watch expression="error" language="HTML" />
       </configuration>
     </watches-manager>
   </component>

@@ -3,7 +3,7 @@ from django.views import View
 from django.views.generic import ListView, DeleteView
 
 from BairBudalite.forms import CommentForm
-from BairBudalite.models import Pohodi, Budali, Images, Comment
+from BairBudalite.models import Pohodi, Budali, Images, Comment, Project
 from budalite_authentication.models import UserProfile
 
 
@@ -56,6 +56,12 @@ def pohod(request, pk):
                 'images': {images[num]: num + 1 for num in range(0, len(images))},
             }
             return render(request, 'pohod.html', context)
+
+
+class ProjectsView(ListView):
+    template_name = 'projects.html'
+    model = Project
+    context_object_name = 'projects'
 
 
 class DeleteCommentView(View):
