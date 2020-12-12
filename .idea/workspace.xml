@@ -4807,10 +4807,6 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BairBudalite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BairBudalite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
     </list>
     <list id="f552e9b8-a02f-44ff-914b-5b22fab820a7" name="new" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5033,7 +5029,7 @@
       <workItem from="1607529548515" duration="10710000" />
       <workItem from="1607675927064" duration="6150000" />
       <workItem from="1607718305184" duration="4894000" />
-      <workItem from="1607773103122" duration="5225000" />
+      <workItem from="1607773103122" duration="5950000" />
     </task>
     <task id="LOCAL-00001" summary="1. Refactored the Templates with the new material that i have learned - Template inheritance.&#10;2. Added button to our Instagram.&#10;3. Added comment form under our Hikes page.">
       <created>1604862751847</created>
@@ -5302,7 +5298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607776623025</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1. Added RequiredLoginMixin for the project detail view&#10;2. Added check button for the done attribute in the Projects list view.">
+      <created>1607779169269</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607779169269</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -5373,7 +5376,8 @@
     <MESSAGE value="1. Reworked the log/reg templates" />
     <MESSAGE value="1. Added new page for all of our Projects" />
     <MESSAGE value="1. Added page for every project" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Added page for every project" />
+    <MESSAGE value="1. Added RequiredLoginMixin for the project detail view&#10;2. Added check button for the done attribute in the Projects list view." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Added RequiredLoginMixin for the project detail view&#10;2. Added check button for the done attribute in the Projects list view." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -5397,10 +5401,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604862589455" />
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607776602057">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1607779145139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607776602057" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607779145139" />
     <state x="766" y="103" width="504" height="521" key="DiffContextDialog" timestamp="1605107748095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -5413,22 +5417,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607691601506" />
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607778119167">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1607779373227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607778119167" />
-    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607778119167">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607779373227" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1607779373227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607778119167" />
-    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607778119167">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607779373227" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1607779373227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607778119167" />
-    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607778119167">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607779373227" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1607779373227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607778119167" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607779373227" />
     <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1607778020473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

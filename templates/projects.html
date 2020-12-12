@@ -18,7 +18,7 @@
                 <h5 class="card-title">{{ project.name }}</h5>
                 <p class="card-text">{{ project.description|truncatechars_html:200  }}</p>
                 <a href="{% url 'project' project.id %}" class="btn btn-primary">Прочети още</a>
-            {% if user.is_staf %}
+            {% if user.is_staff %}
                     {% if not project.done %}
                         <a class="btn btn-success" href="{% url 'projects with pk' project.id %}">Маркирай като завършен</a>
                     {% else %}
