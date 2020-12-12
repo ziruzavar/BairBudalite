@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.views import View
 from django.views.generic import ListView, DeleteView, DetailView
 
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 from BairBudalite.forms import CommentForm
 from BairBudalite.models import Pohodi, Budali, Images, Comment, Project
 from budalite_authentication.models import UserProfile
@@ -64,10 +66,25 @@ class ProjectsView(ListView):
     context_object_name = 'projects'
 
 
-class ProjectView(DetailView):
+class ProjectsViewWithPk(View):
+    def get(self, reques, **kwargs):
+        project = Project.objects.get(pk=kwargs['pk'])
+        if project.done:
+            project.done = False
+        else:
+            project.done = True
+        project.save()
+        return redirect('projects')
+
+
+class ProjectView(LoginRequiredMixin, DetailView):
     template_name = 'project.html'
     model = Project
     context_object_name = 'project'
+
+    def get_login_url(self):
+        login_url = '/auth/login'
+        return login_url
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
