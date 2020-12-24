@@ -53,10 +53,6 @@ class Images(models.Model):
         return f"{self.project}"
 
 
-class Klipove(models.Model):
-    pass
-
-
 """
 Model fot the comments,  it is connected to
 the Pohod with ForeignKey
