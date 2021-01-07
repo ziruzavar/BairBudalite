@@ -1,2 +1,2 @@
 # BairBudalite
-This is my site for the Django Exam in SoftUni
+This is my site for the group BairBudalite.
